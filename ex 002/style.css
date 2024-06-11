@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jaro:opsz@6..72&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poetsen+One&family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap');
+body{
+    height: 100vh;
+    background-color: #000000e7;
+    margin: 4%;
+    box-sizing: border-box;
+}
+
+.conteudo-principal{
+    display: flex;
+    align-items: center;
+}
+
+.principal-bloco-esquerdo{
+    margin: 8%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.titulo-principal{
+    color: #E6385D;
+    font-family: "Ubuntu Sans Mono", monospace;
+    font-size: 30px;
+}
+
+.estilo-titulo-principal{
+    color: #D6AD34;
+}
+
+.paragrafo-principal{
+    color: #fdfeff;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 24px;
+}
+
+.paragrafo-principal-estilo{
+    color: #D6AD34;
+    font-size: 26px;
+}
+
+.link-pai{
+    display: flex;
+    justify-content: space-between;
+}
+
+.link-filho{
+    text-decoration: none;
+    text-align: center;
+    border-radius: 16px;
+    background-color: #250DE5;
+    padding: 12px 50px;
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Poetsen One", sans-serif;
+}
+
+.img{
+    border-radius: 20px;
+}
